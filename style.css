@@ -25,3 +25,9 @@ font-family: sans-serif;
     line-height: 30px;
     color: #1F3F68;
 }
+.field{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
