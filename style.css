@@ -41,6 +41,9 @@ font-family: sans-serif;
     line-height: 30px;
     color: #1F3F68;
 }
+.titles{
+    width: 340px;
+}
 .what-we-do{
     display: flex;
     flex-wrap: wrap;
@@ -65,4 +68,12 @@ width:359px;
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+.footer__text{
+    width: 495px;
+}
+.footer__info {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
