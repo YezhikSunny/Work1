@@ -41,6 +41,14 @@ font-family: sans-serif;
     line-height: 30px;
     color: #1F3F68;
 }
+.what-we-do{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+flex-grow: 1;
+width:359px;
+}
 .enter{
     border: 1px solid #356EAD;
     box-sizing: border-box;
