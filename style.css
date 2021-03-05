@@ -69,6 +69,18 @@ width:359px;
     color: #FFFFFF;
     text-transform: uppercase;
 }
+.form {
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin-left: 200px;
+}
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+}
+.map{
+    width: 1140px;
+}
 .footer__text{
     width: 495px;
 }
