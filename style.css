@@ -8,7 +8,7 @@
 }
 .header {
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 }          
 head,
 body{
@@ -44,13 +44,12 @@ font-family: sans-serif;
 .titles{
     width: 340px;
 }
-.what-we-do{
+.card-box{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .card{
-flex-grow: 1;
-width:359px;
+    width:359px;
 }
 .enter{
     border: 1px solid #356EAD;
@@ -69,14 +68,8 @@ width:359px;
     color: #FFFFFF;
     text-transform: uppercase;
 }
-.form {
-    flex-grow: 1;
-    flex-basis: 200px;
-    margin-left: 200px;
-}
-.forms {
+.main {
     display: flex;
-    flex-wrap: wrap;
 }
 .map{
     width: 1140px;
@@ -85,7 +78,13 @@ width:359px;
     width: 495px;
 }
 .footer__info {
-    list-style-type: none;
     display: flex;
     justify-content: space-between;
+}
+.li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.ul{
+    list-style-type: disc;
 }
