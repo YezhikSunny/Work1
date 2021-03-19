@@ -151,7 +151,8 @@ font-family: sans-serif;
 .project__parent {
    display: flex;
    justify-content: space-between;
-   margin-top: 32px; 
+   margin-top: 32px;
+    margin-bottom: 112px;
 }
 .project__item{
     position: relative;
@@ -182,6 +183,9 @@ font-family: sans-serif;
 }
 .map{
     width: 1140px;
+}
+.footer {
+    background: #316099;
 }
 .footer__text{
     width: 495px;
