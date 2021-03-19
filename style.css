@@ -96,7 +96,16 @@ font-family: sans-serif;
     margin-bottom: 14px;
 }
 .titles{
-    width: 340px;
+    width: 340.96px;
+    height: 92px;
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-top: 91px;
+    margin-bottom: 32px;
 }
 .card-box{
     display: flex;
@@ -186,6 +195,7 @@ font-family: sans-serif;
 }
 .footer {
     background: #316099;
+    height: 657px;
 }
 .footer__text{
     width: 495px;
@@ -194,8 +204,19 @@ font-family: sans-serif;
     display: flex;
     justify-content: space-between;
 }
+.footer__top {
+    padding-bottom: 96px;
+}
 .li{
     display: list-item;
+}
+.text_footer__top {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 495px;
 }
 .ul{
     list-style-type: disc;                       
