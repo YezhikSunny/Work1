@@ -83,8 +83,7 @@ font-family: sans-serif;
 }
 .li{
     display: list-item;
-    text-align: -webkit-match-parent;
 }
 .ul{
-    list-style-type: disc;
+    list-style-type: disc;                       
 }
