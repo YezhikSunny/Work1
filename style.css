@@ -195,7 +195,7 @@ font-family: sans-serif;
 }
 .footer {
     background: #316099;
-    height: 657px;
+    width: 100%;
 }
 .footer__text{
     width: 495px;
@@ -203,13 +203,16 @@ font-family: sans-serif;
 .footer__info {
     display: flex;
     justify-content: space-between;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+    margin-top: 64px;
 }
 .footer__top {
     padding-bottom: 96px;
     position: relative;
-}
-.li{
-    display: list-item;
 }
 .text_footer__top {
     font-size: 16px;
@@ -230,9 +233,17 @@ font-family: sans-serif;
     text-decoration: none;
     display: inline-block;
     position: absolute;
-    right: 114px;
-    top: 165px;
+    right: 15%;
+    top: 47%;
 }
-.ul{
-    list-style-type: disc;                       
+.text_footer__copy{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+.footer__info_contact {
+    width: 316.98px;
+    height: 48px;
 }
