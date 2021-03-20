@@ -96,15 +96,10 @@ font-family: sans-serif;
     margin-bottom: 14px;
 }
 .titles{
-    width: 340.96px;
-    height: 92px;
-    font-family: Roboto;
-    font-size: 36px;
-    line-height: 46px;
-    letter-spacing: 0.05em;
+    width: 340px;
+    text-align: left;
     color: #FFFFFF;
     opacity: 1;
-    padding-top: 91px;
     margin-bottom: 32px;
 }
 .card-box{
@@ -195,7 +190,9 @@ font-family: sans-serif;
 }
 .footer {
     background: #316099;
-    width: 100%;
+    padding-top: 91px;
+    padding-bottom: 64px;
+    margin-top: 112px;
 }
 .footer__text{
     width: 495px;
@@ -203,16 +200,13 @@ font-family: sans-serif;
 .footer__info {
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    margin-bottom: 64px;
     margin-top: 64px;
 }
 .footer__top {
     padding-bottom: 96px;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .text_footer__top {
     font-size: 16px;
@@ -232,9 +226,6 @@ font-family: sans-serif;
     padding: 15px 80px;
     text-decoration: none;
     display: inline-block;
-    position: absolute;
-    right: 15%;
-    top: 47%;
 }
 .text_footer__copy{
     font-size: 16px;
@@ -242,8 +233,27 @@ font-family: sans-serif;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.4;
+    margin-top: 64px;
+}
+.footer__copy {
+    margin-top: 64px;
+}
+hr {
+    opacity: 0.4;
 }
 .footer__info_contact {
-    width: 316.98px;
-    height: 48px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    flex-grow: 1;
+    flex-basis: 33.3333%;
+    list-style-type: none;
+    display: flex;
+    margin-right: 32px;
+}
+.footer__info_contact:first-child::before {
+    content: 'A.';
+    display: block;
+    margin-right: 16px;
 }
