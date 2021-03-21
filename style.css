@@ -15,7 +15,6 @@
     flex-grow: 1;
 }
 .topi {
-    min-height: 768px;
     flex-grow: 1;
 }
 .top {
@@ -75,7 +74,7 @@ font-family: sans-serif;
     margin-top: 60px;
     padding-top: 40px;
     background-repeat: no-repeat;
-    padding-bottom: 109px;
+    margin-bottom: 89px;
 }
 .text{
     font-size: 16px;
@@ -163,22 +162,76 @@ font-family: sans-serif;
     color: #5A98D0;
     text-decoration: none;
 }
+.text_contact-info {
+    max-width: 300px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+    list-style-type: none;
+}
+.text_contact-info-adress {
+    margin-bottom: 40px;
+}
+.text_contact-info-site {
+    list-style-image: url(img/site.svg);
+    padding-bottom: 16px;
+    text-decoration: none;
+}
+.text_contact-info-mail {
+    list-style-image: url(img/email.svg);
+    text-decoration: none;
+}
+.text_contact-info-phone2 {
+    margin-bottom: 40px;
+}
 .enter{
+    opacity: 0.4;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
-    opacity: 0.4;
+    padding-left: 36px;
+    padding-bottom: 21px;
+    margin-bottom: 53px;
+    width: 100%;
+}
+.enter__message {
+    padding-bottom: 93px;
+}
+.text__form {
+    margin-bottom: 48px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+.text__for-form {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 24px;
+}
+.text_contact-info-phone {
+    list-style-image: url(img/phone.svg);
+    padding-bottom: 16px;
 }
 .send{
     background: #5A98D0;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    padding: 23px 183px;
 }
 .main {
     display: flex;
@@ -221,6 +274,13 @@ font-family: sans-serif;
 }
 .map{
     width: 1140px;
+}
+.form {
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 56px;
+    margin-bottom: 96px;
 }
 .footer {
     background: #316099;
