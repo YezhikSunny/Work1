@@ -169,6 +169,7 @@ font-family: sans-serif;
     color: #1F3F68;
     opacity: 0.6;
     list-style-type: none;
+    padding-right: 100px;
 }
 .text_contact-info-adress {
     margin-bottom: 40px;
@@ -235,6 +236,7 @@ font-family: sans-serif;
 }
 .main {
     display: flex;
+    margin-right: 300px;
 }
 .project__img {
     width: 100%;
@@ -411,7 +413,19 @@ hr {
     .footer__info_contact:last-child::before {
         margin-right: 26px;
     }
-
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-info {
+        margin-bottom: 64px;
+    }
+    .form {
+        margin-bottom: 64px;
+    }
+    .map {
+        width: 768px;
+    }
 }
 @media (max-width: 667px) {
     .header {
@@ -529,5 +543,38 @@ hr {
     }
     .text_footer__copy {
         margin-top: 0px;
+    }
+    .map {
+        width: 375px;
+    }
+    .main {
+        width: 100%;;
+    }
+    .titlemiddle {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .text__contacts_header {
+        font-size: 16px;
+        padding-right: 17px;
+        padding-left: 17px;
+        margin-top: 32px;
+    }
+    .header__contact{
+        margin-bottom: 9px;
+    }
+    .form {
+        margin-bottom: 32px;
+        padding: 36px;
+
+    }
+    .enter {
+        padding-left: 26px;
+        padding-bottom: 14px;
+        margin-bottom: 53px;
+        width: 343px;
+    }
+    .send {
+        padding: 15px 60px;
     }
 }
