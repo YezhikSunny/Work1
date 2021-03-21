@@ -48,6 +48,7 @@
     background-image: url(img/top__back.png);
     background-repeat: no-repeat;
     background-position: right center;
+    /*! Что это за свойство?*/
     block-size: 44%;
 }
 .top__botton{
@@ -349,6 +350,7 @@ hr {
     list-style-type: none;
 }
 
+/*! Есть специальное свойство, которое маркеры заменяет на числа!*/
 .footer__info_contact:first-child::before {
     content: '1. ';
     display: block;
@@ -365,13 +367,16 @@ hr {
     margin-right: 16px;
 }
 
-@media (max-width: 1024px) {
+/*! Откуда такие значения медия?*/
+@media (max-width: 768px) {
     .container {
         padding-left: 32px;
         padding-right: 32px;
     }
     .top__info {
         background-position: right 280px;
+        padding-bottom: 190px;
+        background-size: 44%;
     }
     .card-box {
         flex-direction: column;
@@ -392,6 +397,7 @@ hr {
     }
     .footer__top__botton {
         padding: 8px 45px;
+        margin-left: 58px;
     }
     .footer__top {
         justify-content: center;
@@ -402,7 +408,7 @@ hr {
     }
     .footer__info_contact {
         margin-bottom: 25px;
-        margin-left: 184px;
+        margin-left: 70px;
     }
     .footer__info_contact:first-child::before {
         margin-right: 26px;
@@ -430,6 +436,9 @@ hr {
         max-width: 768px;
     }
 }
+
+
+/*! Откуда такие значения медия?*/
 @media (max-width: 667px) {
     .header {
         padding-top: 24px;

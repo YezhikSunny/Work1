@@ -1,7 +1,9 @@
+<!--! Устал уже это писать!-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!--! Устал уже это писать!-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=р1, initial-scale=1.0">
@@ -19,12 +21,15 @@
                         <li><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
                         <li><a href="contact.html"><img src="img/contacts.svg" alt="contacts"></a></li>
                     </ul>
+                    <!--!background должен быть на всю страницу, а не на контейнер-->
                     <div class="header__contact">
                         <h2 class="titlemiddle">Contact&nbsp;Us</h2>
                         <p class="text__contacts_header">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
             </div>
+            <!--!Блок не в контейнере!, ездит при уменьшении масштаба-->
+            <!--! Ошибка в форме должна нахордиться только форма, в данном случае, форма начинается-->
             <form action="#" class="main container">
                 <div class="contact-info">
                     <img src="img/Forms.svg" alt="photo">
@@ -41,15 +46,18 @@
                         <li class="text_contact-info text_contact-info-mail"><a href="https://mail.ru/">hello.site@gmail.com</a></li>
                     </ul>         
                 </div>
+                <!--! Вот отсюда ФОРМА!!!!-->
                 <div class="form">
+                    <!--TODO: Есть свойство margin и свойство padding, в чём их различия?-->
                     <h4 class="titlesmall text__form">Send&nbsp;us message</h4>
-                    Full Name <br> <br> <input type="text" placeholder="Your Name" class="enter"><br>
-                    Email <br> <br> <input type="email" placeholder="Your Email" class="enter"><br>
-                    Message <br> <br> <input type="textarea" placeholder="Your Message" class="enter enter__message"><br>
-                    <button type="submit" class="send">Отправить</button><br>
+                    <span>Full Name</span><input type="text" placeholder="Your Name" class="enter">
+                    <span>Email</span><input type="email" placeholder="Your Email" class="enter">
+                    <span>Message</span><input type="text" placeholder="Your Message" class="enter enter__message">
+                    <button type="submit" class="send">Отправить</button>
                 </div>
             </form>
             <div class="container">
+                <!--!Карту нужно вставить ещё раз и не засовывать карту в ТИПОГРАФ (скрипты в типограф не засовываются)-->
                 <script class="map" type="text/javascript" charset="utf-8" async
                 src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A87dd02c1e24f4c1814d00d1e052fcb446d93049c145305eea58abc14a2cf48aa&amp;width=1140&amp;height=600&amp;lang=ru_RU&amp;scroll=true">
                 style="width:100%;"
@@ -71,6 +79,7 @@
                     <div class="footer__bottom">
                         <ol class="footer__info">
                             <li class="footer__info_contact">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <!--! Идентичная ошибка как и в index-->
                             <li class="footer__info_contact footer__info_contact2"i> +7-812-7313-4321</li>
                             <li class="footer__info_contact">hello.site@gmail.com</li>
                         </ol>
