@@ -16,7 +16,6 @@
 }
 .topi {
     min-height: 768px;
-    background-color: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     flex-grow: 1;
 }
 .top {
@@ -29,6 +28,15 @@
     justify-content: space-between;
     list-style-type: none;
     padding-top: 42px;
+}
+.text__contacts_header {
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.04em;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 143px;
+    padding-left: 143px;
 }
 .top__box {
     display: flex;
@@ -64,6 +72,10 @@ font-family: sans-serif;
 .header__contact{
     background-image: url(img/Contact\ Us.png);
     height: 250px;
+    margin-top: 60px;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    padding-bottom: 109px;
 }
 .text{
     font-size: 16px;
@@ -99,6 +111,9 @@ font-family: sans-serif;
     font-weight: 500;
     font-size: 44px;
     text-align: center;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 .titlenormal{
     font-size: 36px;
