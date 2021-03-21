@@ -426,6 +426,9 @@ hr {
     .map {
         width: 768px;
     }
+    .top {
+        max-width: 768px;
+    }
 }
 @media (max-width: 667px) {
     .header {
@@ -435,6 +438,7 @@ hr {
         min-height: 376px;
         padding-bottom: 41px;
         box-sizing: border-box;
+        max-width: 345px;
     }
     .top__info {
         padding-top: 36px;
@@ -576,5 +580,8 @@ hr {
     }
     .send {
         padding: 15px 60px;
+    }
+    .top {
+        max-width: 345px;
     }
 }
