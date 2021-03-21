@@ -430,7 +430,7 @@ hr {
         max-width: 768px;
     }
 }
-@media (max-width: 667px) {
+@media (max-width: 666px) {
     .header {
         padding-top: 24px;
     }
